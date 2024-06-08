@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from pokedex_constants import LEGEND_LIST, PARADOX_LIST, DATA_RAW_DIR
+from pokedex_constants import LEGEND_LIST, PARADOX_LIST
+from src.constants import DATA_RAW_DIR
 from utils import get_generation, remove_repeated_words
 import os
 

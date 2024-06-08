@@ -1,5 +1,3 @@
-DATA_RAW_DIR = "data/raw"
-
 # legendary pokemon
 SUB_LEGENDARY_LIST = [
     "Articuno",
