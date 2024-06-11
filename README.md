@@ -13,6 +13,10 @@ The example is built on the case of classifying Pokémon as legendary.
 * Until generation 8 (incl.), the legendary classification consisted of the following: Sub-Legendary Pokémon | Legendary Pokémon | Mythical Pokémon. We treat them all as legendary for the sake of this exercise.
 * From generation 9 onwards, the legendary classification is slightly different, that is, there are groups called: Sub-Legendary Pokémon | Ultra Beasts | Paradox Pokémon | Restricted Legendary Pokémon | Mythical Pokémon. For example, Ultra Beasts are now a separate class and are not considered Legendary.
 
+## Instructions
+* prepare the raw dataset using the `src/getting_data/get_pokedex.py`
+* execute the pipeline (or its steps) as described in `dvc.yaml`
+
 ## References
 
 Docs:
